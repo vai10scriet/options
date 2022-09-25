@@ -14,13 +14,14 @@ public class StepDefinition {
 	@Given("User is on Home Page")
 	public void user_is_on_Home_Page() {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   System.out.println("hello");
 	}
 
 	    @When("User Navigate to LogIn Page with \"([^\"]*)\" and password \"([^\"]*)\"")
 	    public void user_navigate_to_login_page_with_something_and_password_something(String strArg1, String strArg2) throws Throwable {
 	       
 	    	System.out.println("strArg1"+" "+ "strArg2");
+	    	
 	    }
 
 	    @Then("Message displayed Login Successfully")
